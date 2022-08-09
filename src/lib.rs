@@ -1,5 +1,6 @@
+pub(crate) mod connection;
+pub mod participant_state;
 pub mod thread_party;
-
 
 #[cfg(test)]
 mod tests {
